@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 46;
+    objects = {
+
+/* Begin PBXAggregateTarget section */
+		AAE5B6617526204A11B6CB15 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AA1D628D8782264052A901A3 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				AA58E81F66AA804CF19A522E /* MultiBuild Framework */,
+			);
+			dependencies = (
+				AA70CA60FCEC234CEE9D7DFF /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+        AA09057CCA119649D2BD2F0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8A6BB35052E54CC4BA8271 /* Foundation.framework */; };
+        AAA0B69635D72F40DF8630F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8A6BB35052E54CC4BA8271 /* Foundation.framework */; };
+        AA4A1933F125D54C058EE318 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF7473A28113B44569986E8 /* UIKit.framework */; };
+        AA3827F6E7603448A9BD8AD5 /* libBuzzlogixTextAnalysisAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFEDE12F6123C4FAAB5FA22 /* libBuzzlogixTextAnalysisAPI.a */; };
+        AA65452D1C6AD84651ABC441 /* APIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1B17FAD463F144C7B857DE /* APIHelper.m */; };
+        AAD4B415296B6F4B10A45DE9 /* APIError.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD9730FE846204F1796C03A /* APIError.m */; };
+        AAFED1C737962D49A0A452B7 /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA110E21FCDB4447EBDB584 /* Configuration.m */; };
+		AA19697EB38C324B67A46AF1 /* CustomAuthUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF4F10D59877E4E09948094 /* CustomAuthUtility.m */; };
+		AAAF9481312D1F4DDFBF5954 /* ObjectivityController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9E04A9751654491AA51DE3 /* ObjectivityController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA516ED235C34142D1BFD271 /* ObjectivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA89B690EFE2244EC59455B1 /* ObjectivityController.m */; };
+		AABC71112E982A4AF48083C0 /* SentimentController.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA2B56867F7414F658C9738 /* SentimentController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAC4E2A22A417E42A2A3B825 /* SentimentController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0368093A3A1A47CFA9EAEB /* SentimentController.m */; };
+		AA7F530FBE0EA2491BA5DAF5 /* TwittersentimentController.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF21F9A137A954A7E99F2A0 /* TwittersentimentController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA78BA85CB8C344C24A842D8 /* TwittersentimentController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA13A9784AF9574066982956 /* TwittersentimentController.m */; };
+		AA4736E7829219404F888D11 /* Configuration.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8C5403F7FC464298BD50D9 /* Configuration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA93727136D79446D1AD24F8 /* APIError.h in Headers */ = {isa = PBXBuildFile; fileRef = AA134E613086164EE8A21864 /* APIError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA22A3CC4EFDEA4E20A64EDE /* APIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC51B319139664B6E8EC9A5 /* APIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAC1BBD7A025AA4AD7B35924 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA70CFF1AA75724F30ACCBD6 /* libPods.a */; };
+		AA74CC5F76C50F4D0A948226 /* libJSONModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE55CA3DBE3B944D0855679 /* libJSONModel.a */; };		
+		AA5E8F098DA4A44A738DF03D /* libUnirest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAC355CBA373E440090C3A4 /* libUnirest.a */; };
+		AA38CB5F9ACE2F441F9FB0A9 /* IHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AA160D3CE52166456FA01C72 /* IHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAAE322A4DBC6640279619EF /* HttpContext.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA604A2E7A73A4C8EA9A404 /* HttpContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAC3B15D5162D44794B63FA5 /* HttpContext.m in Sources */ = {isa = PBXBuildFile; fileRef = AA373E1F303BEA4B0A89EE2D /* HttpContext.m */; };
+
+		AA99EFA788918D40CFAD7DC0 /* UnirestClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB24959D2D1704CDE9C7156 /* UnirestClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAECFEFD80BEC24DA38553C5 /* UnirestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AA848D4862FD744104AF1D84 /* UnirestClient.m */; };
+		AAF4D99DFE0DF849C78FA111 /* HttpBodyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5EB28F652DA641CB97A611 /* HttpBodyRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA449BFE1853354B908724DF /* HttpBodyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF37982BB2D66402F974C93 /* HttpBodyRequest.m */; };
+		AAEA09FE594BDA4EF2A4D73A /* HttpMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = AA96170B3F37234C9CA8FEC5 /* HttpMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA438A5E389E7C4AFBB65D7B /* HttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC983B8CE353F4F448B61A4 /* HttpRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA1FFB675ADD7642298E8959 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4DB6313DC07F499D8A1846 /* HttpRequest.m */; };
+		AA6E37A44AD82449659E4958 /* HttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB3C863AA98FE4814B859D5 /* HttpResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAB584CA22992242C8B00EE9 /* HttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AA703413A4147C4F4C8B2762 /* HttpResponse.m */; };
+		AA3C04B65DC8E24E608226FF /* HttpStringResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AA05F7C6B79F224D7790D57C /* HttpStringResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA90541F6FE36C424DAFDF0B /* HttpStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AA494A7C4D32E14DA08222E1 /* HttpStringResponse.m */; };
+		AA5929C12FAD5D44A6BD10B6 /* BaseController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9A522F32F422408CB34F7C /* BaseController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AABA81A14A703C47738D9F01 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB1F5C4DD86794905B9705E /* BaseController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAA99BB3E705C84F479456BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA122BBBB57F8C4780B97537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAF7CA186D91BE4A68A5A0F9;
+			remoteInfo = BuzzlogixTextAnalysisAPI;
+		};
+        AAA99BB3E705C84F479456BC /* PBXContainerItemProxy */ = {
+            isa = PBXContainerItemProxy;
+            containerPortal = AAE73F93A4D5BA4B379C54B7 /* Project object */;
+            proxyType = 1;
+            remoteGlobalIDString = AAF7CA186D91BE4A68A5A0F9;
+            remoteInfo = BuzzlogixTextAnalysisAPI;
+        };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+        AA0AC271CCC34F4C7F98638A /* CopyFiles */ = {
+            isa = PBXCopyFilesBuildPhase;
+            buildActionMask = 2147483647;
+            dstPath = "include/$(PRODUCT_NAME)";
+            dstSubfolderSpec = 16;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+        AAFEDE12F6123C4FAAB5FA22 /* libBuzzlogixTextAnalysisAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBuzzlogixTextAnalysisAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+        AA8A6BB35052E54CC4BA8271 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+        AA11F1F2AAAC614675869940 /* BuzzlogixTextAnalysisAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BuzzlogixTextAnalysisAPI-Prefix.pch"; sourceTree = "<group>"; };
+        AAF7473A28113B44569986E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+        AA1B17FAD463F144C7B857DE /* APIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIHelper.m; sourceTree = "<group>"; };
+        AAC51B319139664B6E8EC9A5 /* APIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIHelper.h; sourceTree = "<group>"; };		
+        AAD9730FE846204F1796C03A /* APIError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIError.m; sourceTree = "<group>"; };
+        AA134E613086164EE8A21864 /* APIError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIError.h; sourceTree = "<group>"; };
+        AAA110E21FCDB4447EBDB584 /* Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Configuration.m; sourceTree = "<group>"; };
+		AAF4F10D59877E4E09948094 /* CustomAuthUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAuthUtility.m; sourceTree = "<group>"; };
+		AA14EE3076ED034339A3A1A4 /* CustomAuthUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAuthUtility.h; sourceTree = "<group>"; };
+        AA8C5403F7FC464298BD50D9 /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		AA9E04A9751654491AA51DE3 /* ObjectivityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjectivityController.h; path = Controllers/ObjectivityController.h; sourceTree = "<group>"; };
+		AA89B690EFE2244EC59455B1 /* ObjectivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjectivityController.m; path = Controllers/ObjectivityController.m; sourceTree = "<group>"; };
+		AAA2B56867F7414F658C9738 /* SentimentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SentimentController.h; path = Controllers/SentimentController.h; sourceTree = "<group>"; };
+		AA0368093A3A1A47CFA9EAEB /* SentimentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SentimentController.m; path = Controllers/SentimentController.m; sourceTree = "<group>"; };
+		AAF21F9A137A954A7E99F2A0 /* TwittersentimentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwittersentimentController.h; path = Controllers/TwittersentimentController.h; sourceTree = "<group>"; };
+		AA13A9784AF9574066982956 /* TwittersentimentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwittersentimentController.m; path = Controllers/TwittersentimentController.m; sourceTree = "<group>"; };
+		AA70CFF1AA75724F30ACCBD6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE55CA3DBE3B944D0855679 /* libJSONModel.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libJSONModel.a"; path = "libJSONModel.a"; sourceTree = "<group>"; };
+		AAAC355CBA373E440090C3A4 /* libUnirest.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libUnirest.a"; path = "libUnirest.a"; sourceTree = "<group>"; };
+        AA160D3CE52166456FA01C72 /* IHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IHttpClient.h; path = Http/Client/IHttpClient.h; sourceTree = "<group>"; };
+		AAB24959D2D1704CDE9C7156 /* UnirestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnirestClient.h; path = Http/Client/UnirestClient.h; sourceTree = "<group>"; };
+		AA848D4862FD744104AF1D84 /* UnirestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnirestClient.m; path = Http/Client/UnirestClient.m; sourceTree = "<group>"; };
+		AAA604A2E7A73A4C8EA9A404 /* HttpContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpContext.h; path = Http/Client/HttpContext.h; sourceTree = "<group>"; };
+		AA373E1F303BEA4B0A89EE2D /* HttpContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc;name = HttpContext.m;  path = Http/Client/HttpContext.m; sourceTree = "<group>"; };
+
+		AA5EB28F652DA641CB97A611 /* HttpBodyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpBodyRequest.h; path = Http/Request/HttpBodyRequest.h; sourceTree = "<group>"; };
+		AAF37982BB2D66402F974C93 /* HttpBodyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpBodyRequest.m; path = Http/Request/HttpBodyRequest.m; sourceTree = "<group>"; };
+		AA96170B3F37234C9CA8FEC5 /* HttpMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpMethod.h; path = Http/Request/HttpMethod.h; sourceTree = "<group>"; };
+		AAC983B8CE353F4F448B61A4 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpRequest.h; path = Http/Request/HttpRequest.h; sourceTree = "<group>"; };
+		AA4DB6313DC07F499D8A1846 /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpRequest.m; path = Http/Request/HttpRequest.m; sourceTree = "<group>"; };
+		AAB3C863AA98FE4814B859D5 /* HttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpResponse.h; path = Http/Response/HttpResponse.h; sourceTree = "<group>"; };
+		AA703413A4147C4F4C8B2762 /* HttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpResponse.m; path = Http/Response/HttpResponse.m; sourceTree = "<group>"; };
+		AA05F7C6B79F224D7790D57C /* HttpStringResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpStringResponse.h; path = Http/Response/HttpStringResponse.h; sourceTree = "<group>"; };
+		AA494A7C4D32E14DA08222E1 /* HttpStringResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpStringResponse.m; path = Http/Response/HttpStringResponse.m; sourceTree = "<group>"; };
+		AA9A522F32F422408CB34F7C /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseController.h; path = Controllers/BaseController.h; sourceTree = "<group>"; };
+		AAB1F5C4DD86794905B9705E /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseController.m; path = Controllers/BaseController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+        AAD39D4529CB89445E87C9FD /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                AA09057CCA119649D2BD2F0C /* Foundation.framework in Frameworks */,
+				AA5E8F098DA4A44A738DF03D /* libUnirest.a in Frameworks */,				
+				AA74CC5F76C50F4D0A948226 /* libJSONModel.a in Frameworks */,				
+				AAC1BBD7A025AA4AD7B35924 /* libPods.a in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        AAA72B6BAC76AE450A8011F3 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                AA4A1933F125D54C058EE318 /* UIKit.framework in Frameworks */,
+                AA3827F6E7603448A9BD8AD5 /* libBuzzlogixTextAnalysisAPI.a in Frameworks */,
+                AAA0B69635D72F40DF8630F5 /* Foundation.framework in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+        AA8D5FDD073CB64840B392C5 = {
+            isa = PBXGroup;
+            children = (
+                AA1EBDB166BED84F75885716 /* BuzzlogixTextAnalysisAPI */,
+                AA8FA688F2C9B948C985F6BE /* Frameworks */,
+                AA2FCAF88B8916472EB36CB8 /* Products */,
+            );
+            sourceTree = "<group>";
+        };
+        AA2FCAF88B8916472EB36CB8 /* Products */ = {
+            isa = PBXGroup;
+            children = (
+                AAFEDE12F6123C4FAAB5FA22 /* libBuzzlogixTextAnalysisAPI.a */,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+        AA8FA688F2C9B948C985F6BE /* Frameworks */ = {
+            isa = PBXGroup;
+            children = (
+				AAAC355CBA373E440090C3A4 /* libUnirest.a */,
+				AAE55CA3DBE3B944D0855679 /* libJSONModel.a */,
+				AA70CFF1AA75724F30ACCBD6 /* libPods.a */,
+                AA8A6BB35052E54CC4BA8271 /* Foundation.framework */,
+                AAF7473A28113B44569986E8 /* UIKit.framework */,
+            );
+            name = Frameworks;
+            sourceTree = "<group>";
+        };
+        AA1EBDB166BED84F75885716 /* BuzzlogixTextAnalysisAPI */ = {
+            isa = PBXGroup;
+            children = (
+                AA9BAA77DC8C3F40648C6052 /* Models */,
+                AAE24DC54D93C140949D18EB /* Http */,
+                AA891D0E32B6E942D3B0886F /* Controllers */,
+                AA9F6D16A95B9A4217BC4380 /* Supporting Files */,
+                AA1B17FAD463F144C7B857DE /* APIHelper.m */,
+                AAC51B319139664B6E8EC9A5 /* APIHelper.h */,
+                AAD9730FE846204F1796C03A /* APIError.m */,
+                AA134E613086164EE8A21864 /* APIError.h */,
+				AAF4F10D59877E4E09948094 /* CustomAuthUtility.m */,
+				AA14EE3076ED034339A3A1A4 /* CustomAuthUtility.h */,
+                AAA110E21FCDB4447EBDB584 /* Configuration.m */,
+                AA8C5403F7FC464298BD50D9 /* Configuration.h */,
+            );
+            path = BuzzlogixTextAnalysisAPI;
+            sourceTree = "<group>";
+        };
+        AA9F6D16A95B9A4217BC4380 /* Supporting Files */ = {
+            isa = PBXGroup;
+            children = (
+                AA11F1F2AAAC614675869940 /* BuzzlogixTextAnalysisAPI-Prefix.pch */,
+            );
+            name = "Supporting Files";
+            sourceTree = "<group>";
+        };
+        AA891D0E32B6E942D3B0886F /* Controllers */ = {
+            isa = PBXGroup;
+            children = (
+				AA9A522F32F422408CB34F7C /* BaseController.h */,
+				AAB1F5C4DD86794905B9705E /* BaseController.m */,
+				AA9E04A9751654491AA51DE3 /* ObjectivityController.h */,
+				AA89B690EFE2244EC59455B1 /* ObjectivityController.m */,
+				AAA2B56867F7414F658C9738 /* SentimentController.h */,
+				AA0368093A3A1A47CFA9EAEB /* SentimentController.m */,
+				AAF21F9A137A954A7E99F2A0 /* TwittersentimentController.h */,
+				AA13A9784AF9574066982956 /* TwittersentimentController.m */,
+            );
+            name = Controllers;
+            sourceTree = "<group>";
+        };
+		AA3ABFB37060B9491BBF0C2A /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				AA160D3CE52166456FA01C72 /* IHttpClient.h */,
+				AAB24959D2D1704CDE9C7156 /* UnirestClient.h */,
+				AA848D4862FD744104AF1D84 /* UnirestClient.m */,
+				AAA604A2E7A73A4C8EA9A404 /* HttpContext.h */,
+				AA373E1F303BEA4B0A89EE2D /* HttpContext.m */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		AAE24DC54D93C140949D18EB /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				AA0DCC9B42657944E2829388 /* Request */,
+				AA3ABFB37060B9491BBF0C2A /* Client */,
+				AA119212CF0C4B45C4B72D4B /* Response */,
+			);
+			name = Http;
+			sourceTree = "<group>";
+		};
+		AA0DCC9B42657944E2829388 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				AA5EB28F652DA641CB97A611 /* HttpBodyRequest.h */,
+				AAF37982BB2D66402F974C93 /* HttpBodyRequest.m */,
+				AA96170B3F37234C9CA8FEC5 /* HttpMethod.h */,
+				AAC983B8CE353F4F448B61A4 /* HttpRequest.h */,
+				AA4DB6313DC07F499D8A1846 /* HttpRequest.m */,
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		AA119212CF0C4B45C4B72D4B /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3C863AA98FE4814B859D5 /* HttpResponse.h */,
+				AA703413A4147C4F4C8B2762 /* HttpResponse.m */,
+				AA05F7C6B79F224D7790D57C /* HttpStringResponse.h */,
+				AA494A7C4D32E14DA08222E1 /* HttpStringResponse.m */,
+			);
+			name = Response;
+			sourceTree = "<group>";
+		};
+        AA9BAA77DC8C3F40648C6052 /* Models */ = {
+            isa = PBXGroup;
+            children = (
+            );
+            name = Models;
+            sourceTree = "<group>";
+        };
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AAB4ADF99CAF8F4873AE1CB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+		AAAF9481312D1F4DDFBF5954 /* ObjectivityController.h in Headers */,
+		AABC71112E982A4AF48083C0 /* SentimentController.h in Headers */,
+		AA7F530FBE0EA2491BA5DAF5 /* TwittersentimentController.h in Headers */,
+		AA22A3CC4EFDEA4E20A64EDE /* APIHelper.h in Headers */,
+		AA4736E7829219404F888D11 /* Configuration.h in Headers */,
+		AA93727136D79446D1AD24F8 /* APIError.h in Headers */,
+		AAF4D99DFE0DF849C78FA111 /* HttpBodyRequest.h in Headers */,
+		AA438A5E389E7C4AFBB65D7B /* HttpRequest.h in Headers */,
+		AA38CB5F9ACE2F441F9FB0A9 /* IHttpClient.h in Headers */,
+		AAAE322A4DBC6640279619EF /* HttpContext.h in Headers */,
+
+		AA5929C12FAD5D44A6BD10B6 /* BaseController.h in Headers */,
+		AA6E37A44AD82449659E4958 /* HttpResponse.h in Headers */,
+		AA99EFA788918D40CFAD7DC0 /* UnirestClient.h in Headers */,
+		AA3C04B65DC8E24E608226FF /* HttpStringResponse.h in Headers */,
+		AAEA09FE594BDA4EF2A4D73A /* HttpMethod.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+        AAF7CA186D91BE4A68A5A0F9 /* BuzzlogixTextAnalysisAPI */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = AA9B72E26AABEE4561AAD36C /* Build configuration list for PBXNativeTarget "BuzzlogixTextAnalysisAPI" */;
+            buildPhases = (
+                AAA9629C7144974C52B4FB78 /* Sources */,
+                AAD39D4529CB89445E87C9FD /* Frameworks */,
+                AA0AC271CCC34F4C7F98638A /* CopyFiles */,
+				AAB4ADF99CAF8F4873AE1CB2 /* Headers */,
+				AA5144DF1C781B4EBEA73675 /* Build Framework */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = BuzzlogixTextAnalysisAPI;
+            productName = BuzzlogixTextAnalysisAPI;
+            productReference = AAFEDE12F6123C4FAAB5FA22 /* libBuzzlogixTextAnalysisAPI.a */;
+            productType = "com.apple.product-type.library.static";
+        };		
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+        AAE73F93A4D5BA4B379C54B7 /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                LastUpgradeCheck = 0500;
+                ORGANIZATIONNAME = APIMatic;
+            };
+            buildConfigurationList = AABC7D509978D44D66893D44 /* Build configuration list for PBXProject "BuzzlogixTextAnalysisAPI" */;
+            compatibilityVersion = "Xcode 3.2";
+            developmentRegion = English;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+            );
+            mainGroup = AA8D5FDD073CB64840B392C5;
+            productRefGroup = AA2FCAF88B8916472EB36CB8 /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                AAF7CA186D91BE4A68A5A0F9 /* BuzzlogixTextAnalysisAPI */,
+				AAE5B6617526204A11B6CB15 /* Framework */,
+            );
+        };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA5144DF1C781B4EBEA73675 /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#Credit: http://www.raywenderlich.com/65964/create-a-framework-for-ios\nset -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -f -r \"${PODS_ROOT}/Headers/Public/JSONModel/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Copy the public headers into the framework\n/bin/cp -f -r \"${PODS_ROOT}/Headers/Public/Unirest/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Copy the public headers into the framework\n/bin/cp -f -r \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
+		};
+		AA58E81F66AA804CF19A522E /* MultiBuild Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "MultiBuild Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#Credit: http://www.raywenderlich.com/65964/create-a-framework-for-ios\nset -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\n\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n     \n     xcrun xcodebuild \\\n    -workspace \"${PROJECT_DIR}/${PROJECT_NAME}.xcworkspace\" \\\n    -scheme \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.framework\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+        AAA9629C7144974C52B4FB78 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                AA65452D1C6AD84651ABC441 /* APIHelper.m in Sources */,
+                AAD4B415296B6F4B10A45DE9 /* APIError.m in Sources */,
+                AAFED1C737962D49A0A452B7 /* Configuration.m in Sources */,
+				AA19697EB38C324B67A46AF1 /* CustomAuthUtility.m in Sources */,
+				AA516ED235C34142D1BFD271 /* ObjectivityController.m in Sources */,
+				AAC4E2A22A417E42A2A3B825 /* SentimentController.m in Sources */,
+				AA78BA85CB8C344C24A842D8 /* TwittersentimentController.m in Sources */,
+				 AA449BFE1853354B908724DF /* HttpBodyRequest.m in Sources */,
+				 AABA81A14A703C47738D9F01 /* BaseController.m in Sources */,
+				 AAECFEFD80BEC24DA38553C5 /* UnirestClient.m in Sources */,
+				 AAC3B15D5162D44794B63FA5 /* UnirestClient.m in Sources */,
+				 AAB584CA22992242C8B00EE9 /* HttpResponse.m in Sources */,
+				 AA90541F6FE36C424DAFDF0B /* HttpStringResponse.m in Sources */,
+				 AA1FFB675ADD7642298E8959 /* HttpRequest.m in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA70CA60FCEC234CEE9D7DFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAF7CA186D91BE4A68A5A0F9 /* BuzzlogixTextAnalysisAPI */;
+			targetProxy = AAA99BB3E705C84F479456BC /* PBXContainerItemProxy */;
+		};
+        AA2F055984B10649BAAD9B12 /* PBXTargetDependency */ = {
+            isa = PBXTargetDependency;
+            target = AAF7CA186D91BE4A68A5A0F9 /* BuzzlogixTextAnalysisAPI */;
+            targetProxy = AAA99BB3E705C84F479456BC /* PBXContainerItemProxy */;
+        };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA098BEA313AB547B292134E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AACF53F8439EDB416094D04A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+        AA96F255415E6D458EB7987D /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+                CLANG_CXX_LIBRARY = "libc++";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                COPY_PHASE_STRIP = NO;
+                GCC_C_LANGUAGE_STANDARD = gnu99;
+                GCC_DYNAMIC_NO_PIC = NO;
+                GCC_OPTIMIZATION_LEVEL = 0;
+                GCC_PREPROCESSOR_DEFINITIONS = (
+                    "DEBUG=1",
+                    "$(inherited)",
+                );
+                GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+                ONLY_ACTIVE_ARCH = YES;
+                SDKROOT = iphoneos;
+            };
+            name = Debug;
+        };
+        AA6BD98938924842DCB17062 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+                CLANG_CXX_LIBRARY = "libc++";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                COPY_PHASE_STRIP = YES;
+                ENABLE_NS_ASSERTIONS = NO;
+                GCC_C_LANGUAGE_STANDARD = gnu99;
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+                SDKROOT = iphoneos;
+                VALIDATE_PRODUCT = YES;
+            };
+            name = Release;
+        };
+        AAB924B7C7679A4FB2872C0F /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                DEAD_CODE_STRIPPING = NO;
+                DSTROOT = /tmp/BuzzlogixTextAnalysisAPI.dst;
+                GCC_PRECOMPILE_PREFIX_HEADER = YES;
+                GCC_PREFIX_HEADER = "BuzzlogixTextAnalysisAPI/BuzzlogixTextAnalysisAPI-Prefix.pch";
+                OTHER_LDFLAGS = "";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+                SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = "non-global";
+            };
+            name = Debug;
+        };
+        AAF3E21179BC4D4EFEB0B739 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+                DSTROOT = /tmp/BuzzlogixTextAnalysisAPI.dst;
+                GCC_PRECOMPILE_PREFIX_HEADER = YES;
+                GCC_PREFIX_HEADER = "BuzzlogixTextAnalysisAPI/BuzzlogixTextAnalysisAPI-Prefix.pch";
+                OTHER_LDFLAGS = "";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+                SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = "non-global";
+            };
+            name = Release;
+        };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA1D628D8782264052A901A3 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA098BEA313AB547B292134E /* Debug */,
+				AACF53F8439EDB416094D04A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+        AABC7D509978D44D66893D44 /* Build configuration list for PBXProject "BuzzlogixTextAnalysisAPI" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                AA96F255415E6D458EB7987D /* Debug */,
+                AA6BD98938924842DCB17062 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        AA9B72E26AABEE4561AAD36C /* Build configuration list for PBXNativeTarget "BuzzlogixTextAnalysisAPI" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                AAB924B7C7679A4FB2872C0F /* Debug */,
+                AAF3E21179BC4D4EFEB0B739 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+/* End XCConfigurationList section */
+    };
+    rootObject = AAE73F93A4D5BA4B379C54B7 /* Project object */;
+}
