@@ -7,14 +7,14 @@
     objects = {
 
 /* Begin PBXAggregateTarget section */
-		AAE5B6617526204A11B6CB15 /* Framework */ = {
+		AAF3F7FC328F2A4311986282 /* Framework */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = AA1D628D8782264052A901A3 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildConfigurationList = AAFCF93124C78B45B78A7086 /* Build configuration list for PBXAggregateTarget "Framework" */;
 			buildPhases = (
-				AA58E81F66AA804CF19A522E /* MultiBuild Framework */,
+				AA2A1974B6D4EA4B59B216AA /* MultiBuild Framework */,
 			);
 			dependencies = (
-				AA70CA60FCEC234CEE9D7DFF /* PBXTargetDependency */,
+				AAC8B7D27B3B17479E9DFE76 /* PBXTargetDependency */,
 			);
 			name = Framework;
 			productName = Framework;
@@ -22,64 +22,65 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-        AA09057CCA119649D2BD2F0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8A6BB35052E54CC4BA8271 /* Foundation.framework */; };
-        AAA0B69635D72F40DF8630F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8A6BB35052E54CC4BA8271 /* Foundation.framework */; };
-        AA4A1933F125D54C058EE318 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF7473A28113B44569986E8 /* UIKit.framework */; };
-        AA3827F6E7603448A9BD8AD5 /* libBuzzlogixTextAnalysisAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFEDE12F6123C4FAAB5FA22 /* libBuzzlogixTextAnalysisAPI.a */; };
-        AA65452D1C6AD84651ABC441 /* APIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1B17FAD463F144C7B857DE /* APIHelper.m */; };
-        AAD4B415296B6F4B10A45DE9 /* APIError.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD9730FE846204F1796C03A /* APIError.m */; };
-        AAFED1C737962D49A0A452B7 /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA110E21FCDB4447EBDB584 /* Configuration.m */; };
-		AA19697EB38C324B67A46AF1 /* CustomAuthUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF4F10D59877E4E09948094 /* CustomAuthUtility.m */; };
-		AAAF9481312D1F4DDFBF5954 /* ObjectivityController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9E04A9751654491AA51DE3 /* ObjectivityController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA516ED235C34142D1BFD271 /* ObjectivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA89B690EFE2244EC59455B1 /* ObjectivityController.m */; };
-		AABC71112E982A4AF48083C0 /* SentimentController.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA2B56867F7414F658C9738 /* SentimentController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAC4E2A22A417E42A2A3B825 /* SentimentController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0368093A3A1A47CFA9EAEB /* SentimentController.m */; };
-		AA7F530FBE0EA2491BA5DAF5 /* TwittersentimentController.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF21F9A137A954A7E99F2A0 /* TwittersentimentController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA78BA85CB8C344C24A842D8 /* TwittersentimentController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA13A9784AF9574066982956 /* TwittersentimentController.m */; };
-		AA4736E7829219404F888D11 /* Configuration.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8C5403F7FC464298BD50D9 /* Configuration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA93727136D79446D1AD24F8 /* APIError.h in Headers */ = {isa = PBXBuildFile; fileRef = AA134E613086164EE8A21864 /* APIError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA22A3CC4EFDEA4E20A64EDE /* APIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC51B319139664B6E8EC9A5 /* APIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAC1BBD7A025AA4AD7B35924 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA70CFF1AA75724F30ACCBD6 /* libPods.a */; };
-		AA74CC5F76C50F4D0A948226 /* libJSONModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE55CA3DBE3B944D0855679 /* libJSONModel.a */; };		
-		AA5E8F098DA4A44A738DF03D /* libUnirest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAC355CBA373E440090C3A4 /* libUnirest.a */; };
-		AA38CB5F9ACE2F441F9FB0A9 /* IHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AA160D3CE52166456FA01C72 /* IHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAAE322A4DBC6640279619EF /* HttpContext.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA604A2E7A73A4C8EA9A404 /* HttpContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAC3B15D5162D44794B63FA5 /* HttpContext.m in Sources */ = {isa = PBXBuildFile; fileRef = AA373E1F303BEA4B0A89EE2D /* HttpContext.m */; };
+        AA5672FFD786B945B4A724DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA35454EF07E6B4E099C850F /* Foundation.framework */; };
+        AA6D34CFBBA99B48399F2A98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA35454EF07E6B4E099C850F /* Foundation.framework */; };
+        AAAD9F7E448880438988CE93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3964230DC056487DB97A33 /* UIKit.framework */; };
+        AA51BD5766550B4EFBB32376 /* libBuzzlogixTextAnalysisAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1FBC3B1DC6514E39A430CE /* libBuzzlogixTextAnalysisAPI.a */; };
+        AA07A431449D974A6CBA8DF7 /* APIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3027B2FFB0174F1AA1B7E1 /* APIHelper.m */; };
+        AA8C8AFD33123F4E3D87DE2E /* APIError.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9F1E245D42E04D9EB2BFE9 /* APIError.m */; };
+        AA9AFABB1BD8084223915301 /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7324693550114C928AE753 /* Configuration.m */; };
+		AAECBB4A3EC73D4780982C83 /* TwittersentimentController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7C49E621523D4D1B825B12 /* TwittersentimentController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAB9159B9B379845128E5CEB /* TwittersentimentController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD2ED17FB04374B8B8A65C9 /* TwittersentimentController.m */; };
+		AA06AB50B595804B1AB48F6E /* KeywordsController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2D8320919E9940F894522F /* KeywordsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AADBEC8D6707774F90A4B4F3 /* KeywordsController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD52E56370A4A474CA66651 /* KeywordsController.m */; };
+		AA4405B26E0E0A4139B92693 /* ObjectivityController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2D53EEADD3FD4204965760 /* ObjectivityController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA39A7146099F241A4A52815 /* ObjectivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA75610E69CF8A4538936644 /* ObjectivityController.m */; };
+		AA0C7D6A3B659643B2A8241C /* SentimentController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA37315FC5CEB04CB6B98723 /* SentimentController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAC52EC8A19AF64B8AB0E38C /* SentimentController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE9DD43316ECF463AA7FD08 /* SentimentController.m */; };
+		AA88CCACA79CAC429AB362CE /* Configuration.h in Headers */ = {isa = PBXBuildFile; fileRef = AADF181E2F057B4832A1A007 /* Configuration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA8B6D8CCE5D8B46CC846C60 /* APIError.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE9628FBAE25C4CA39CFCCC /* APIError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAB82543F8795E4475B09565 /* APIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = AA41D13BF1DF3F450BBA7BBF /* APIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA7E6252E799CA42F8A8758B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8561E45224084F04AF738E /* libPods.a */; };
+		AAD0B9A0C17A664853925169 /* libJSONModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA319200D0910B4264A7EE6B /* libJSONModel.a */; };		
+		AA64652299E51743A5B36E12 /* libUnirest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC1274012E8BE43999DDA31 /* libUnirest.a */; };
+		AA380D87EA9B354BFCB37AB5 /* IHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AACB96A958E4D34599A1E7D2 /* IHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA7A000EDEAFAC446AB7AB30 /* HttpContext.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA67B7A582ACE44E78833E3 /* HttpContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAA3951A59382349EC8C64B4 /* HttpContext.m in Sources */ = {isa = PBXBuildFile; fileRef = AACBB50B5CFF0A46029B1404 /* HttpContext.m */; };
 
-		AA99EFA788918D40CFAD7DC0 /* UnirestClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB24959D2D1704CDE9C7156 /* UnirestClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAECFEFD80BEC24DA38553C5 /* UnirestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AA848D4862FD744104AF1D84 /* UnirestClient.m */; };
-		AAF4D99DFE0DF849C78FA111 /* HttpBodyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5EB28F652DA641CB97A611 /* HttpBodyRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA449BFE1853354B908724DF /* HttpBodyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF37982BB2D66402F974C93 /* HttpBodyRequest.m */; };
-		AAEA09FE594BDA4EF2A4D73A /* HttpMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = AA96170B3F37234C9CA8FEC5 /* HttpMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA438A5E389E7C4AFBB65D7B /* HttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC983B8CE353F4F448B61A4 /* HttpRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA1FFB675ADD7642298E8959 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4DB6313DC07F499D8A1846 /* HttpRequest.m */; };
-		AA6E37A44AD82449659E4958 /* HttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB3C863AA98FE4814B859D5 /* HttpResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAB584CA22992242C8B00EE9 /* HttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AA703413A4147C4F4C8B2762 /* HttpResponse.m */; };
-		AA3C04B65DC8E24E608226FF /* HttpStringResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AA05F7C6B79F224D7790D57C /* HttpStringResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA90541F6FE36C424DAFDF0B /* HttpStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AA494A7C4D32E14DA08222E1 /* HttpStringResponse.m */; };
-		AA5929C12FAD5D44A6BD10B6 /* BaseController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9A522F32F422408CB34F7C /* BaseController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AABA81A14A703C47738D9F01 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB1F5C4DD86794905B9705E /* BaseController.m */; };
+		AAA3E92BC73BD949CDA01E2F /* UnirestClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8E94A93EC32649288E9050 /* UnirestClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA2DD45C5FA26E434CB6185D /* UnirestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9E1A0D03CDA84672A8F155 /* UnirestClient.m */; };
+		AA3B799049DDD445E4AB9BB8 /* HttpBodyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AA84EC85C4416D4678B5724B /* HttpBodyRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA43025814BEBA42A0B36472 /* HttpBodyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA468A65DAF6114BE189FC4E /* HttpBodyRequest.m */; };
+		AA1167E502729846408CD692 /* HttpMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = AAFC857D49219F40069C8D4D /* HttpMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA60B78DD955974E6681BE15 /* HttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AA790987D052F449EC80F18E /* HttpRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA467CCB4E8EB4489DA775C9 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AADC4AFE7D9EBD4039AB4358 /* HttpRequest.m */; };
+		AAFC125060DEB444E095C770 /* HttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0A4D1E3D658E40649F57AA /* HttpResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAB42F3D2F4D4A4924AEEF5E /* HttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1EEF2A08A94344B89DD1C0 /* HttpResponse.m */; };
+		AA444FC45236FF4C58A23B35 /* HttpStringResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AA20BF3345E7F14C0BBBE094 /* HttpStringResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA70A011C7D7484718B3EFED /* HttpStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC6DEF1135A784EA0B29D8A /* HttpStringResponse.m */; };
+		AA8AAB128B21A04BDD82EA12 /* BaseController.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD7CB9CB404B44F128E83F2 /* BaseController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA13A572FD42B9475F96C98E /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08F4D746679640EB8985BF /* BaseController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AAA99BB3E705C84F479456BC /* PBXContainerItemProxy */ = {
+		AA698CD7D46C7E46E99C4057 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AA122BBBB57F8C4780B97537 /* Project object */;
+			containerPortal = AA96497DA7489B4005944CF4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AAF7CA186D91BE4A68A5A0F9;
+			remoteGlobalIDString = AA17B73F44469849F4973246;
 			remoteInfo = BuzzlogixTextAnalysisAPI;
 		};
-        AAA99BB3E705C84F479456BC /* PBXContainerItemProxy */ = {
+        AA698CD7D46C7E46E99C4057 /* PBXContainerItemProxy */ = {
             isa = PBXContainerItemProxy;
-            containerPortal = AAE73F93A4D5BA4B379C54B7 /* Project object */;
+            containerPortal = AAC03C333AB20D45A288CE05 /* Project object */;
             proxyType = 1;
-            remoteGlobalIDString = AAF7CA186D91BE4A68A5A0F9;
+            remoteGlobalIDString = AA17B73F44469849F4973246;
             remoteInfo = BuzzlogixTextAnalysisAPI;
         };
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-        AA0AC271CCC34F4C7F98638A /* CopyFiles */ = {
+        AAD58BF0EE9A4C44BB900E52 /* CopyFiles */ = {
             isa = PBXCopyFilesBuildPhase;
             buildActionMask = 2147483647;
             dstPath = "include/$(PRODUCT_NAME)";
@@ -91,188 +92,188 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-        AAFEDE12F6123C4FAAB5FA22 /* libBuzzlogixTextAnalysisAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBuzzlogixTextAnalysisAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
-        AA8A6BB35052E54CC4BA8271 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-        AA11F1F2AAAC614675869940 /* BuzzlogixTextAnalysisAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BuzzlogixTextAnalysisAPI-Prefix.pch"; sourceTree = "<group>"; };
-        AAF7473A28113B44569986E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-        AA1B17FAD463F144C7B857DE /* APIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIHelper.m; sourceTree = "<group>"; };
-        AAC51B319139664B6E8EC9A5 /* APIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIHelper.h; sourceTree = "<group>"; };		
-        AAD9730FE846204F1796C03A /* APIError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIError.m; sourceTree = "<group>"; };
-        AA134E613086164EE8A21864 /* APIError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIError.h; sourceTree = "<group>"; };
-        AAA110E21FCDB4447EBDB584 /* Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Configuration.m; sourceTree = "<group>"; };
-		AAF4F10D59877E4E09948094 /* CustomAuthUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAuthUtility.m; sourceTree = "<group>"; };
-		AA14EE3076ED034339A3A1A4 /* CustomAuthUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAuthUtility.h; sourceTree = "<group>"; };
-        AA8C5403F7FC464298BD50D9 /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
-		AA9E04A9751654491AA51DE3 /* ObjectivityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjectivityController.h; path = Controllers/ObjectivityController.h; sourceTree = "<group>"; };
-		AA89B690EFE2244EC59455B1 /* ObjectivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjectivityController.m; path = Controllers/ObjectivityController.m; sourceTree = "<group>"; };
-		AAA2B56867F7414F658C9738 /* SentimentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SentimentController.h; path = Controllers/SentimentController.h; sourceTree = "<group>"; };
-		AA0368093A3A1A47CFA9EAEB /* SentimentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SentimentController.m; path = Controllers/SentimentController.m; sourceTree = "<group>"; };
-		AAF21F9A137A954A7E99F2A0 /* TwittersentimentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwittersentimentController.h; path = Controllers/TwittersentimentController.h; sourceTree = "<group>"; };
-		AA13A9784AF9574066982956 /* TwittersentimentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwittersentimentController.m; path = Controllers/TwittersentimentController.m; sourceTree = "<group>"; };
-		AA70CFF1AA75724F30ACCBD6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAE55CA3DBE3B944D0855679 /* libJSONModel.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libJSONModel.a"; path = "libJSONModel.a"; sourceTree = "<group>"; };
-		AAAC355CBA373E440090C3A4 /* libUnirest.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libUnirest.a"; path = "libUnirest.a"; sourceTree = "<group>"; };
-        AA160D3CE52166456FA01C72 /* IHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IHttpClient.h; path = Http/Client/IHttpClient.h; sourceTree = "<group>"; };
-		AAB24959D2D1704CDE9C7156 /* UnirestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnirestClient.h; path = Http/Client/UnirestClient.h; sourceTree = "<group>"; };
-		AA848D4862FD744104AF1D84 /* UnirestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnirestClient.m; path = Http/Client/UnirestClient.m; sourceTree = "<group>"; };
-		AAA604A2E7A73A4C8EA9A404 /* HttpContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpContext.h; path = Http/Client/HttpContext.h; sourceTree = "<group>"; };
-		AA373E1F303BEA4B0A89EE2D /* HttpContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc;name = HttpContext.m;  path = Http/Client/HttpContext.m; sourceTree = "<group>"; };
+        AA1FBC3B1DC6514E39A430CE /* libBuzzlogixTextAnalysisAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBuzzlogixTextAnalysisAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+        AA35454EF07E6B4E099C850F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+        AA2AB90D996C704F9CBB689B /* BuzzlogixTextAnalysisAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BuzzlogixTextAnalysisAPI-Prefix.pch"; sourceTree = "<group>"; };
+        AA3964230DC056487DB97A33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+        AA3027B2FFB0174F1AA1B7E1 /* APIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIHelper.m; sourceTree = "<group>"; };
+        AA41D13BF1DF3F450BBA7BBF /* APIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIHelper.h; sourceTree = "<group>"; };		
+        AA9F1E245D42E04D9EB2BFE9 /* APIError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIError.m; sourceTree = "<group>"; };
+        AAE9628FBAE25C4CA39CFCCC /* APIError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIError.h; sourceTree = "<group>"; };
+        AA7324693550114C928AE753 /* Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Configuration.m; sourceTree = "<group>"; };
+        AADF181E2F057B4832A1A007 /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		AA7C49E621523D4D1B825B12 /* TwittersentimentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwittersentimentController.h; path = Controllers/TwittersentimentController.h; sourceTree = "<group>"; };
+		AAD2ED17FB04374B8B8A65C9 /* TwittersentimentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwittersentimentController.m; path = Controllers/TwittersentimentController.m; sourceTree = "<group>"; };
+		AA2D8320919E9940F894522F /* KeywordsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeywordsController.h; path = Controllers/KeywordsController.h; sourceTree = "<group>"; };
+		AAD52E56370A4A474CA66651 /* KeywordsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeywordsController.m; path = Controllers/KeywordsController.m; sourceTree = "<group>"; };
+		AA2D53EEADD3FD4204965760 /* ObjectivityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjectivityController.h; path = Controllers/ObjectivityController.h; sourceTree = "<group>"; };
+		AA75610E69CF8A4538936644 /* ObjectivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjectivityController.m; path = Controllers/ObjectivityController.m; sourceTree = "<group>"; };
+		AA37315FC5CEB04CB6B98723 /* SentimentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SentimentController.h; path = Controllers/SentimentController.h; sourceTree = "<group>"; };
+		AAE9DD43316ECF463AA7FD08 /* SentimentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SentimentController.m; path = Controllers/SentimentController.m; sourceTree = "<group>"; };
+		AA8561E45224084F04AF738E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA319200D0910B4264A7EE6B /* libJSONModel.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libJSONModel.a"; path = "libJSONModel.a"; sourceTree = "<group>"; };
+		AAC1274012E8BE43999DDA31 /* libUnirest.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libUnirest.a"; path = "libUnirest.a"; sourceTree = "<group>"; };
+        AACB96A958E4D34599A1E7D2 /* IHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IHttpClient.h; path = Http/Client/IHttpClient.h; sourceTree = "<group>"; };
+		AA8E94A93EC32649288E9050 /* UnirestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnirestClient.h; path = Http/Client/UnirestClient.h; sourceTree = "<group>"; };
+		AA9E1A0D03CDA84672A8F155 /* UnirestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnirestClient.m; path = Http/Client/UnirestClient.m; sourceTree = "<group>"; };
+		AAA67B7A582ACE44E78833E3 /* HttpContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpContext.h; path = Http/Client/HttpContext.h; sourceTree = "<group>"; };
+		AACBB50B5CFF0A46029B1404 /* HttpContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc;name = HttpContext.m;  path = Http/Client/HttpContext.m; sourceTree = "<group>"; };
 
-		AA5EB28F652DA641CB97A611 /* HttpBodyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpBodyRequest.h; path = Http/Request/HttpBodyRequest.h; sourceTree = "<group>"; };
-		AAF37982BB2D66402F974C93 /* HttpBodyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpBodyRequest.m; path = Http/Request/HttpBodyRequest.m; sourceTree = "<group>"; };
-		AA96170B3F37234C9CA8FEC5 /* HttpMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpMethod.h; path = Http/Request/HttpMethod.h; sourceTree = "<group>"; };
-		AAC983B8CE353F4F448B61A4 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpRequest.h; path = Http/Request/HttpRequest.h; sourceTree = "<group>"; };
-		AA4DB6313DC07F499D8A1846 /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpRequest.m; path = Http/Request/HttpRequest.m; sourceTree = "<group>"; };
-		AAB3C863AA98FE4814B859D5 /* HttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpResponse.h; path = Http/Response/HttpResponse.h; sourceTree = "<group>"; };
-		AA703413A4147C4F4C8B2762 /* HttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpResponse.m; path = Http/Response/HttpResponse.m; sourceTree = "<group>"; };
-		AA05F7C6B79F224D7790D57C /* HttpStringResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpStringResponse.h; path = Http/Response/HttpStringResponse.h; sourceTree = "<group>"; };
-		AA494A7C4D32E14DA08222E1 /* HttpStringResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpStringResponse.m; path = Http/Response/HttpStringResponse.m; sourceTree = "<group>"; };
-		AA9A522F32F422408CB34F7C /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseController.h; path = Controllers/BaseController.h; sourceTree = "<group>"; };
-		AAB1F5C4DD86794905B9705E /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseController.m; path = Controllers/BaseController.m; sourceTree = "<group>"; };
+		AA84EC85C4416D4678B5724B /* HttpBodyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpBodyRequest.h; path = Http/Request/HttpBodyRequest.h; sourceTree = "<group>"; };
+		AA468A65DAF6114BE189FC4E /* HttpBodyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpBodyRequest.m; path = Http/Request/HttpBodyRequest.m; sourceTree = "<group>"; };
+		AAFC857D49219F40069C8D4D /* HttpMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpMethod.h; path = Http/Request/HttpMethod.h; sourceTree = "<group>"; };
+		AA790987D052F449EC80F18E /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpRequest.h; path = Http/Request/HttpRequest.h; sourceTree = "<group>"; };
+		AADC4AFE7D9EBD4039AB4358 /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpRequest.m; path = Http/Request/HttpRequest.m; sourceTree = "<group>"; };
+		AA0A4D1E3D658E40649F57AA /* HttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpResponse.h; path = Http/Response/HttpResponse.h; sourceTree = "<group>"; };
+		AA1EEF2A08A94344B89DD1C0 /* HttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpResponse.m; path = Http/Response/HttpResponse.m; sourceTree = "<group>"; };
+		AA20BF3345E7F14C0BBBE094 /* HttpStringResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpStringResponse.h; path = Http/Response/HttpStringResponse.h; sourceTree = "<group>"; };
+		AAC6DEF1135A784EA0B29D8A /* HttpStringResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpStringResponse.m; path = Http/Response/HttpStringResponse.m; sourceTree = "<group>"; };
+		AAD7CB9CB404B44F128E83F2 /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseController.h; path = Controllers/BaseController.h; sourceTree = "<group>"; };
+		AA08F4D746679640EB8985BF /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseController.m; path = Controllers/BaseController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-        AAD39D4529CB89445E87C9FD /* Frameworks */ = {
+        AA088FEB6248044C799695B1 /* Frameworks */ = {
             isa = PBXFrameworksBuildPhase;
             buildActionMask = 2147483647;
             files = (
-                AA09057CCA119649D2BD2F0C /* Foundation.framework in Frameworks */,
-				AA5E8F098DA4A44A738DF03D /* libUnirest.a in Frameworks */,				
-				AA74CC5F76C50F4D0A948226 /* libJSONModel.a in Frameworks */,				
-				AAC1BBD7A025AA4AD7B35924 /* libPods.a in Frameworks */,
+                AA5672FFD786B945B4A724DA /* Foundation.framework in Frameworks */,
+				AA64652299E51743A5B36E12 /* libUnirest.a in Frameworks */,				
+				AAD0B9A0C17A664853925169 /* libJSONModel.a in Frameworks */,				
+				AA7E6252E799CA42F8A8758B /* libPods.a in Frameworks */,
             );
             runOnlyForDeploymentPostprocessing = 0;
         };
-        AAA72B6BAC76AE450A8011F3 /* Frameworks */ = {
+        AA7028338131EF4F30B647D2 /* Frameworks */ = {
             isa = PBXFrameworksBuildPhase;
             buildActionMask = 2147483647;
             files = (
-                AA4A1933F125D54C058EE318 /* UIKit.framework in Frameworks */,
-                AA3827F6E7603448A9BD8AD5 /* libBuzzlogixTextAnalysisAPI.a in Frameworks */,
-                AAA0B69635D72F40DF8630F5 /* Foundation.framework in Frameworks */,
+                AAAD9F7E448880438988CE93 /* UIKit.framework in Frameworks */,
+                AA51BD5766550B4EFBB32376 /* libBuzzlogixTextAnalysisAPI.a in Frameworks */,
+                AA6D34CFBBA99B48399F2A98 /* Foundation.framework in Frameworks */,
             );
             runOnlyForDeploymentPostprocessing = 0;
         };
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-        AA8D5FDD073CB64840B392C5 = {
+        AA4D7E61936310444C9D753F = {
             isa = PBXGroup;
             children = (
-                AA1EBDB166BED84F75885716 /* BuzzlogixTextAnalysisAPI */,
-                AA8FA688F2C9B948C985F6BE /* Frameworks */,
-                AA2FCAF88B8916472EB36CB8 /* Products */,
+                AAAF4C83FA838E4931B3F7E2 /* BuzzlogixTextAnalysisAPI */,
+                AA1B67BDD0C1F8497DA4AAF8 /* Frameworks */,
+                AA53453B925CB746A19D00D2 /* Products */,
             );
             sourceTree = "<group>";
         };
-        AA2FCAF88B8916472EB36CB8 /* Products */ = {
+        AA53453B925CB746A19D00D2 /* Products */ = {
             isa = PBXGroup;
             children = (
-                AAFEDE12F6123C4FAAB5FA22 /* libBuzzlogixTextAnalysisAPI.a */,
+                AA1FBC3B1DC6514E39A430CE /* libBuzzlogixTextAnalysisAPI.a */,
             );
             name = Products;
             sourceTree = "<group>";
         };
-        AA8FA688F2C9B948C985F6BE /* Frameworks */ = {
+        AA1B67BDD0C1F8497DA4AAF8 /* Frameworks */ = {
             isa = PBXGroup;
             children = (
-				AAAC355CBA373E440090C3A4 /* libUnirest.a */,
-				AAE55CA3DBE3B944D0855679 /* libJSONModel.a */,
-				AA70CFF1AA75724F30ACCBD6 /* libPods.a */,
-                AA8A6BB35052E54CC4BA8271 /* Foundation.framework */,
-                AAF7473A28113B44569986E8 /* UIKit.framework */,
+				AAC1274012E8BE43999DDA31 /* libUnirest.a */,
+				AA319200D0910B4264A7EE6B /* libJSONModel.a */,
+				AA8561E45224084F04AF738E /* libPods.a */,
+                AA35454EF07E6B4E099C850F /* Foundation.framework */,
+                AA3964230DC056487DB97A33 /* UIKit.framework */,
             );
             name = Frameworks;
             sourceTree = "<group>";
         };
-        AA1EBDB166BED84F75885716 /* BuzzlogixTextAnalysisAPI */ = {
+        AAAF4C83FA838E4931B3F7E2 /* BuzzlogixTextAnalysisAPI */ = {
             isa = PBXGroup;
             children = (
-                AA9BAA77DC8C3F40648C6052 /* Models */,
-                AAE24DC54D93C140949D18EB /* Http */,
-                AA891D0E32B6E942D3B0886F /* Controllers */,
-                AA9F6D16A95B9A4217BC4380 /* Supporting Files */,
-                AA1B17FAD463F144C7B857DE /* APIHelper.m */,
-                AAC51B319139664B6E8EC9A5 /* APIHelper.h */,
-                AAD9730FE846204F1796C03A /* APIError.m */,
-                AA134E613086164EE8A21864 /* APIError.h */,
-				AAF4F10D59877E4E09948094 /* CustomAuthUtility.m */,
-				AA14EE3076ED034339A3A1A4 /* CustomAuthUtility.h */,
-                AAA110E21FCDB4447EBDB584 /* Configuration.m */,
-                AA8C5403F7FC464298BD50D9 /* Configuration.h */,
+                AA46855B23097E4AB3B51033 /* Models */,
+                AAEBE68F808E8F48B591AC48 /* Http */,
+                AA2A081638BB0B404A8DA89E /* Controllers */,
+                AADFDDCDF18012468EAADF75 /* Supporting Files */,
+                AA3027B2FFB0174F1AA1B7E1 /* APIHelper.m */,
+                AA41D13BF1DF3F450BBA7BBF /* APIHelper.h */,
+                AA9F1E245D42E04D9EB2BFE9 /* APIError.m */,
+                AAE9628FBAE25C4CA39CFCCC /* APIError.h */,
+                AA7324693550114C928AE753 /* Configuration.m */,
+                AADF181E2F057B4832A1A007 /* Configuration.h */,
             );
             path = BuzzlogixTextAnalysisAPI;
             sourceTree = "<group>";
         };
-        AA9F6D16A95B9A4217BC4380 /* Supporting Files */ = {
+        AADFDDCDF18012468EAADF75 /* Supporting Files */ = {
             isa = PBXGroup;
             children = (
-                AA11F1F2AAAC614675869940 /* BuzzlogixTextAnalysisAPI-Prefix.pch */,
+                AA2AB90D996C704F9CBB689B /* BuzzlogixTextAnalysisAPI-Prefix.pch */,
             );
             name = "Supporting Files";
             sourceTree = "<group>";
         };
-        AA891D0E32B6E942D3B0886F /* Controllers */ = {
+        AA2A081638BB0B404A8DA89E /* Controllers */ = {
             isa = PBXGroup;
             children = (
-				AA9A522F32F422408CB34F7C /* BaseController.h */,
-				AAB1F5C4DD86794905B9705E /* BaseController.m */,
-				AA9E04A9751654491AA51DE3 /* ObjectivityController.h */,
-				AA89B690EFE2244EC59455B1 /* ObjectivityController.m */,
-				AAA2B56867F7414F658C9738 /* SentimentController.h */,
-				AA0368093A3A1A47CFA9EAEB /* SentimentController.m */,
-				AAF21F9A137A954A7E99F2A0 /* TwittersentimentController.h */,
-				AA13A9784AF9574066982956 /* TwittersentimentController.m */,
+				AAD7CB9CB404B44F128E83F2 /* BaseController.h */,
+				AA08F4D746679640EB8985BF /* BaseController.m */,
+				AA7C49E621523D4D1B825B12 /* TwittersentimentController.h */,
+				AAD2ED17FB04374B8B8A65C9 /* TwittersentimentController.m */,
+				AA2D8320919E9940F894522F /* KeywordsController.h */,
+				AAD52E56370A4A474CA66651 /* KeywordsController.m */,
+				AA2D53EEADD3FD4204965760 /* ObjectivityController.h */,
+				AA75610E69CF8A4538936644 /* ObjectivityController.m */,
+				AA37315FC5CEB04CB6B98723 /* SentimentController.h */,
+				AAE9DD43316ECF463AA7FD08 /* SentimentController.m */,
             );
             name = Controllers;
             sourceTree = "<group>";
         };
-		AA3ABFB37060B9491BBF0C2A /* Client */ = {
+		AA410D29BF5CC2489C88C666 /* Client */ = {
 			isa = PBXGroup;
 			children = (
-				AA160D3CE52166456FA01C72 /* IHttpClient.h */,
-				AAB24959D2D1704CDE9C7156 /* UnirestClient.h */,
-				AA848D4862FD744104AF1D84 /* UnirestClient.m */,
-				AAA604A2E7A73A4C8EA9A404 /* HttpContext.h */,
-				AA373E1F303BEA4B0A89EE2D /* HttpContext.m */,
+				AACB96A958E4D34599A1E7D2 /* IHttpClient.h */,
+				AA8E94A93EC32649288E9050 /* UnirestClient.h */,
+				AA9E1A0D03CDA84672A8F155 /* UnirestClient.m */,
+				AAA67B7A582ACE44E78833E3 /* HttpContext.h */,
+				AACBB50B5CFF0A46029B1404 /* HttpContext.m */,
 			);
 			name = Client;
 			sourceTree = "<group>";
 		};
-		AAE24DC54D93C140949D18EB /* Http */ = {
+		AAEBE68F808E8F48B591AC48 /* Http */ = {
 			isa = PBXGroup;
 			children = (
-				AA0DCC9B42657944E2829388 /* Request */,
-				AA3ABFB37060B9491BBF0C2A /* Client */,
-				AA119212CF0C4B45C4B72D4B /* Response */,
+				AA030C7D97E3FE4720A53971 /* Request */,
+				AA410D29BF5CC2489C88C666 /* Client */,
+				AAA35AEAED503E4029AD3771 /* Response */,
 			);
 			name = Http;
 			sourceTree = "<group>";
 		};
-		AA0DCC9B42657944E2829388 /* Request */ = {
+		AA030C7D97E3FE4720A53971 /* Request */ = {
 			isa = PBXGroup;
 			children = (
-				AA5EB28F652DA641CB97A611 /* HttpBodyRequest.h */,
-				AAF37982BB2D66402F974C93 /* HttpBodyRequest.m */,
-				AA96170B3F37234C9CA8FEC5 /* HttpMethod.h */,
-				AAC983B8CE353F4F448B61A4 /* HttpRequest.h */,
-				AA4DB6313DC07F499D8A1846 /* HttpRequest.m */,
+				AA84EC85C4416D4678B5724B /* HttpBodyRequest.h */,
+				AA468A65DAF6114BE189FC4E /* HttpBodyRequest.m */,
+				AAFC857D49219F40069C8D4D /* HttpMethod.h */,
+				AA790987D052F449EC80F18E /* HttpRequest.h */,
+				AADC4AFE7D9EBD4039AB4358 /* HttpRequest.m */,
 			);
 			name = Request;
 			sourceTree = "<group>";
 		};
-		AA119212CF0C4B45C4B72D4B /* Response */ = {
+		AAA35AEAED503E4029AD3771 /* Response */ = {
 			isa = PBXGroup;
 			children = (
-				AAB3C863AA98FE4814B859D5 /* HttpResponse.h */,
-				AA703413A4147C4F4C8B2762 /* HttpResponse.m */,
-				AA05F7C6B79F224D7790D57C /* HttpStringResponse.h */,
-				AA494A7C4D32E14DA08222E1 /* HttpStringResponse.m */,
+				AA0A4D1E3D658E40649F57AA /* HttpResponse.h */,
+				AA1EEF2A08A94344B89DD1C0 /* HttpResponse.m */,
+				AA20BF3345E7F14C0BBBE094 /* HttpStringResponse.h */,
+				AAC6DEF1135A784EA0B29D8A /* HttpStringResponse.m */,
 			);
 			name = Response;
 			sourceTree = "<group>";
 		};
-        AA9BAA77DC8C3F40648C6052 /* Models */ = {
+        AA46855B23097E4AB3B51033 /* Models */ = {
             isa = PBXGroup;
             children = (
             );
@@ -282,41 +283,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AAB4ADF99CAF8F4873AE1CB2 /* Headers */ = {
+		AA5F669AD8638043539B533E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-		AAAF9481312D1F4DDFBF5954 /* ObjectivityController.h in Headers */,
-		AABC71112E982A4AF48083C0 /* SentimentController.h in Headers */,
-		AA7F530FBE0EA2491BA5DAF5 /* TwittersentimentController.h in Headers */,
-		AA22A3CC4EFDEA4E20A64EDE /* APIHelper.h in Headers */,
-		AA4736E7829219404F888D11 /* Configuration.h in Headers */,
-		AA93727136D79446D1AD24F8 /* APIError.h in Headers */,
-		AAF4D99DFE0DF849C78FA111 /* HttpBodyRequest.h in Headers */,
-		AA438A5E389E7C4AFBB65D7B /* HttpRequest.h in Headers */,
-		AA38CB5F9ACE2F441F9FB0A9 /* IHttpClient.h in Headers */,
-		AAAE322A4DBC6640279619EF /* HttpContext.h in Headers */,
+		AAECBB4A3EC73D4780982C83 /* TwittersentimentController.h in Headers */,
+		AA06AB50B595804B1AB48F6E /* KeywordsController.h in Headers */,
+		AA4405B26E0E0A4139B92693 /* ObjectivityController.h in Headers */,
+		AA0C7D6A3B659643B2A8241C /* SentimentController.h in Headers */,
+		AAB82543F8795E4475B09565 /* APIHelper.h in Headers */,
+		AA88CCACA79CAC429AB362CE /* Configuration.h in Headers */,
+		AA8B6D8CCE5D8B46CC846C60 /* APIError.h in Headers */,
+		AA3B799049DDD445E4AB9BB8 /* HttpBodyRequest.h in Headers */,
+		AA60B78DD955974E6681BE15 /* HttpRequest.h in Headers */,
+		AA380D87EA9B354BFCB37AB5 /* IHttpClient.h in Headers */,
+		AA7A000EDEAFAC446AB7AB30 /* HttpContext.h in Headers */,
 
-		AA5929C12FAD5D44A6BD10B6 /* BaseController.h in Headers */,
-		AA6E37A44AD82449659E4958 /* HttpResponse.h in Headers */,
-		AA99EFA788918D40CFAD7DC0 /* UnirestClient.h in Headers */,
-		AA3C04B65DC8E24E608226FF /* HttpStringResponse.h in Headers */,
-		AAEA09FE594BDA4EF2A4D73A /* HttpMethod.h in Headers */,
+		AA8AAB128B21A04BDD82EA12 /* BaseController.h in Headers */,
+		AAFC125060DEB444E095C770 /* HttpResponse.h in Headers */,
+		AAA3E92BC73BD949CDA01E2F /* UnirestClient.h in Headers */,
+		AA444FC45236FF4C58A23B35 /* HttpStringResponse.h in Headers */,
+		AA1167E502729846408CD692 /* HttpMethod.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-        AAF7CA186D91BE4A68A5A0F9 /* BuzzlogixTextAnalysisAPI */ = {
+        AA17B73F44469849F4973246 /* BuzzlogixTextAnalysisAPI */ = {
             isa = PBXNativeTarget;
-            buildConfigurationList = AA9B72E26AABEE4561AAD36C /* Build configuration list for PBXNativeTarget "BuzzlogixTextAnalysisAPI" */;
+            buildConfigurationList = AAF0C853F161FD43A891AC14 /* Build configuration list for PBXNativeTarget "BuzzlogixTextAnalysisAPI" */;
             buildPhases = (
-                AAA9629C7144974C52B4FB78 /* Sources */,
-                AAD39D4529CB89445E87C9FD /* Frameworks */,
-                AA0AC271CCC34F4C7F98638A /* CopyFiles */,
-				AAB4ADF99CAF8F4873AE1CB2 /* Headers */,
-				AA5144DF1C781B4EBEA73675 /* Build Framework */,
+                AA7102E2B3F0444504B89DFC /* Sources */,
+                AA088FEB6248044C799695B1 /* Frameworks */,
+                AAD58BF0EE9A4C44BB900E52 /* CopyFiles */,
+				AA5F669AD8638043539B533E /* Headers */,
+				AAB88A14FBBBE44911A2BB76 /* Build Framework */,
             );
             buildRules = (
             );
@@ -324,38 +326,38 @@
             );
             name = BuzzlogixTextAnalysisAPI;
             productName = BuzzlogixTextAnalysisAPI;
-            productReference = AAFEDE12F6123C4FAAB5FA22 /* libBuzzlogixTextAnalysisAPI.a */;
+            productReference = AA1FBC3B1DC6514E39A430CE /* libBuzzlogixTextAnalysisAPI.a */;
             productType = "com.apple.product-type.library.static";
         };		
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-        AAE73F93A4D5BA4B379C54B7 /* Project object */ = {
+        AAC03C333AB20D45A288CE05 /* Project object */ = {
             isa = PBXProject;
             attributes = {
                 LastUpgradeCheck = 0500;
                 ORGANIZATIONNAME = APIMatic;
             };
-            buildConfigurationList = AABC7D509978D44D66893D44 /* Build configuration list for PBXProject "BuzzlogixTextAnalysisAPI" */;
+            buildConfigurationList = AA5BECABE407174483A3C266 /* Build configuration list for PBXProject "BuzzlogixTextAnalysisAPI" */;
             compatibilityVersion = "Xcode 3.2";
             developmentRegion = English;
             hasScannedForEncodings = 0;
             knownRegions = (
                 en,
             );
-            mainGroup = AA8D5FDD073CB64840B392C5;
-            productRefGroup = AA2FCAF88B8916472EB36CB8 /* Products */;
+            mainGroup = AA4D7E61936310444C9D753F;
+            productRefGroup = AA53453B925CB746A19D00D2 /* Products */;
             projectDirPath = "";
             projectRoot = "";
             targets = (
-                AAF7CA186D91BE4A68A5A0F9 /* BuzzlogixTextAnalysisAPI */,
-				AAE5B6617526204A11B6CB15 /* Framework */,
+                AA17B73F44469849F4973246 /* BuzzlogixTextAnalysisAPI */,
+				AAF3F7FC328F2A4311986282 /* Framework */,
             );
         };
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		AA5144DF1C781B4EBEA73675 /* Build Framework */ = {
+		AAB88A14FBBBE44911A2BB76 /* Build Framework */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -369,7 +371,7 @@
 			shellPath = /bin/sh;
 			shellScript = "#Credit: http://www.raywenderlich.com/65964/create-a-framework-for-ios\nset -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -f -r \"${PODS_ROOT}/Headers/Public/JSONModel/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Copy the public headers into the framework\n/bin/cp -f -r \"${PODS_ROOT}/Headers/Public/Unirest/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Copy the public headers into the framework\n/bin/cp -f -r \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
 		};
-		AA58E81F66AA804CF19A522E /* MultiBuild Framework */ = {
+		AA2A1974B6D4EA4B59B216AA /* MultiBuild Framework */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -386,58 +388,58 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-        AAA9629C7144974C52B4FB78 /* Sources */ = {
+        AA7102E2B3F0444504B89DFC /* Sources */ = {
             isa = PBXSourcesBuildPhase;
             buildActionMask = 2147483647;
             files = (
-                AA65452D1C6AD84651ABC441 /* APIHelper.m in Sources */,
-                AAD4B415296B6F4B10A45DE9 /* APIError.m in Sources */,
-                AAFED1C737962D49A0A452B7 /* Configuration.m in Sources */,
-				AA19697EB38C324B67A46AF1 /* CustomAuthUtility.m in Sources */,
-				AA516ED235C34142D1BFD271 /* ObjectivityController.m in Sources */,
-				AAC4E2A22A417E42A2A3B825 /* SentimentController.m in Sources */,
-				AA78BA85CB8C344C24A842D8 /* TwittersentimentController.m in Sources */,
-				 AA449BFE1853354B908724DF /* HttpBodyRequest.m in Sources */,
-				 AABA81A14A703C47738D9F01 /* BaseController.m in Sources */,
-				 AAECFEFD80BEC24DA38553C5 /* UnirestClient.m in Sources */,
-				 AAC3B15D5162D44794B63FA5 /* UnirestClient.m in Sources */,
-				 AAB584CA22992242C8B00EE9 /* HttpResponse.m in Sources */,
-				 AA90541F6FE36C424DAFDF0B /* HttpStringResponse.m in Sources */,
-				 AA1FFB675ADD7642298E8959 /* HttpRequest.m in Sources */,
+                AA07A431449D974A6CBA8DF7 /* APIHelper.m in Sources */,
+                AA8C8AFD33123F4E3D87DE2E /* APIError.m in Sources */,
+                AA9AFABB1BD8084223915301 /* Configuration.m in Sources */,
+				AAB9159B9B379845128E5CEB /* TwittersentimentController.m in Sources */,
+				AADBEC8D6707774F90A4B4F3 /* KeywordsController.m in Sources */,
+				AA39A7146099F241A4A52815 /* ObjectivityController.m in Sources */,
+				AAC52EC8A19AF64B8AB0E38C /* SentimentController.m in Sources */,
+				 AA43025814BEBA42A0B36472 /* HttpBodyRequest.m in Sources */,
+				 AA13A572FD42B9475F96C98E /* BaseController.m in Sources */,
+				 AA2DD45C5FA26E434CB6185D /* UnirestClient.m in Sources */,
+				 AAA3951A59382349EC8C64B4 /* UnirestClient.m in Sources */,
+				 AAB42F3D2F4D4A4924AEEF5E /* HttpResponse.m in Sources */,
+				 AA70A011C7D7484718B3EFED /* HttpStringResponse.m in Sources */,
+				 AA467CCB4E8EB4489DA775C9 /* HttpRequest.m in Sources */,
             );
             runOnlyForDeploymentPostprocessing = 0;
         };
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AA70CA60FCEC234CEE9D7DFF /* PBXTargetDependency */ = {
+		AAC8B7D27B3B17479E9DFE76 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AAF7CA186D91BE4A68A5A0F9 /* BuzzlogixTextAnalysisAPI */;
-			targetProxy = AAA99BB3E705C84F479456BC /* PBXContainerItemProxy */;
+			target = AA17B73F44469849F4973246 /* BuzzlogixTextAnalysisAPI */;
+			targetProxy = AA698CD7D46C7E46E99C4057 /* PBXContainerItemProxy */;
 		};
-        AA2F055984B10649BAAD9B12 /* PBXTargetDependency */ = {
+        AADBF1ABCB06924F2BA0F64A /* PBXTargetDependency */ = {
             isa = PBXTargetDependency;
-            target = AAF7CA186D91BE4A68A5A0F9 /* BuzzlogixTextAnalysisAPI */;
-            targetProxy = AAA99BB3E705C84F479456BC /* PBXContainerItemProxy */;
+            target = AA17B73F44469849F4973246 /* BuzzlogixTextAnalysisAPI */;
+            targetProxy = AA698CD7D46C7E46E99C4057 /* PBXContainerItemProxy */;
         };
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		AA098BEA313AB547B292134E /* Debug */ = {
+		AAEE0173C62CB9454BB5FDE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		AACF53F8439EDB416094D04A /* Release */ = {
+		AA7C88C10657B34F8EBD86C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-        AA96F255415E6D458EB7987D /* Debug */ = {
+        AA2B7CCEC40EE545FBA9B564 /* Debug */ = {
             isa = XCBuildConfiguration;
             buildSettings = {
                 ALWAYS_SEARCH_USER_PATHS = NO;
@@ -475,7 +477,7 @@
             };
             name = Debug;
         };
-        AA6BD98938924842DCB17062 /* Release */ = {
+        AA6923A4F1DA9948E7896662 /* Release */ = {
             isa = XCBuildConfiguration;
             buildSettings = {
                 ALWAYS_SEARCH_USER_PATHS = NO;
@@ -507,7 +509,7 @@
             };
             name = Release;
         };
-        AAB924B7C7679A4FB2872C0F /* Debug */ = {
+        AAF9354B46F2A24AB1A70DD1 /* Debug */ = {
             isa = XCBuildConfiguration;
             buildSettings = {
                 DEAD_CODE_STRIPPING = NO;
@@ -523,7 +525,7 @@
             };
             name = Debug;
         };
-        AAF3E21179BC4D4EFEB0B739 /* Release */ = {
+        AACADEA9416AC242B0B0D4BA /* Release */ = {
             isa = XCBuildConfiguration;
             buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -543,33 +545,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA1D628D8782264052A901A3 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+		AAFCF93124C78B45B78A7086 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA098BEA313AB547B292134E /* Debug */,
-				AACF53F8439EDB416094D04A /* Release */,
+				AAEE0173C62CB9454BB5FDE6 /* Debug */,
+				AA7C88C10657B34F8EBD86C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-        AABC7D509978D44D66893D44 /* Build configuration list for PBXProject "BuzzlogixTextAnalysisAPI" */ = {
+        AA5BECABE407174483A3C266 /* Build configuration list for PBXProject "BuzzlogixTextAnalysisAPI" */ = {
             isa = XCConfigurationList;
             buildConfigurations = (
-                AA96F255415E6D458EB7987D /* Debug */,
-                AA6BD98938924842DCB17062 /* Release */,
+                AA2B7CCEC40EE545FBA9B564 /* Debug */,
+                AA6923A4F1DA9948E7896662 /* Release */,
             );
             defaultConfigurationIsVisible = 0;
             defaultConfigurationName = Release;
         };
-        AA9B72E26AABEE4561AAD36C /* Build configuration list for PBXNativeTarget "BuzzlogixTextAnalysisAPI" */ = {
+        AAF0C853F161FD43A891AC14 /* Build configuration list for PBXNativeTarget "BuzzlogixTextAnalysisAPI" */ = {
             isa = XCConfigurationList;
             buildConfigurations = (
-                AAB924B7C7679A4FB2872C0F /* Debug */,
-                AAF3E21179BC4D4EFEB0B739 /* Release */,
+                AAF9354B46F2A24AB1A70DD1 /* Debug */,
+                AACADEA9416AC242B0B0D4BA /* Release */,
             );
             defaultConfigurationIsVisible = 0;
             defaultConfigurationName = Release;
         };
 /* End XCConfigurationList section */
     };
-    rootObject = AAE73F93A4D5BA4B379C54B7 /* Project object */;
+    rootObject = AAC03C333AB20D45A288CE05 /* Project object */;
 }

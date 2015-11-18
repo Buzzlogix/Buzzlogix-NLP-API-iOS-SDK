@@ -2,7 +2,7 @@
 //  APIError.h
 //  BuzzlogixTextAnalysisAPI
 //
-//  This file was automatically generated for Buzzlogix by APIMATIC BETA v2.0 on 11/09/2015
+//  This file was automatically generated for Buzzlogix by APIMATIC BETA v2.0 on 11/18/2015
 //
 #ifndef APIMATIC_APIERROR
 #define APIMATIC_APIERROR

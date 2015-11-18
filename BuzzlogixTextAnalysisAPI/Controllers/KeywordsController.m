@@ -1,26 +1,26 @@
 //
-//  TwittersentimentController.m
+//  KeywordsController.m
 //  BuzzlogixTextAnalysisAPI
 //
 //  This file was automatically generated for Buzzlogix by APIMATIC BETA v2.0 on 11/18/2015
 //
-#import "TwittersentimentController.h"
+#import "KeywordsController.h"
 
-@implementation TwittersentimentController
+@implementation KeywordsController
 
 /**
-* The Tweet should be provided as text/plain in the body
+* The text should be provided as text/plain in the body
 * @param    body    Required parameter: Supply text to be classified.
 * @return	Returns the id response from the API call */
-- (void) createReturnEnglishTwitterSentimentAsyncWithBody:(NSString*) body
-                completionBlock:(CompletedPostReturnEnglishTwitterSentiment) onCompleted
+- (void) createReturnEnglishKeywordsAsyncWithBody:(NSString*) body
+                completionBlock:(CompletedPostReturnEnglishKeywords) onCompleted
 {
     //the base uri for api requests
     NSString* baseUri = [NSString stringWithString: (NSString*) [Configuration BaseUri]];
 
     //prepare query string for API call
     NSMutableString* queryBuilder = [NSMutableString stringWithString: baseUri]; 
-    [queryBuilder appendString: @"/twittersentiment"];
+    [queryBuilder appendString: @"/keywords"];
 
     //validate and preprocess url
     NSString* queryUrl = [APIHelper cleanUrl: queryBuilder];
@@ -99,18 +99,20 @@
 }
 
 /**
-* The Tweet should be provided as multipart/form-data with the key 'text'. Files can be uploaded.
+* The text should be provided as multipart/form-data with the key 'text'. Files can be uploaded.
+* @param    apikey    Required parameter: Supply your API key.
 * @param    body    Required parameter: Supply text to be classified.
 * @return	Returns the id response from the API call */
-- (void) createReturnEnglishTwitterSentimentFormAsyncWithBody:(NSString*) body
-                completionBlock:(CompletedPostReturnEnglishTwitterSentimentForm) onCompleted
+- (void) createReturnEnglishKeywordsFormAsyncWithApikey:(NSString*) apikey
+                body:(NSString*) body
+                completionBlock:(CompletedPostReturnEnglishKeywordsForm) onCompleted
 {
     //the base uri for api requests
     NSString* baseUri = [NSString stringWithString: (NSString*) [Configuration BaseUri]];
 
     //prepare query string for API call
     NSMutableString* queryBuilder = [NSMutableString stringWithString: baseUri]; 
-    [queryBuilder appendString: @"/twittersentiment/form"];
+    [queryBuilder appendString: @"/keywords/form"];
 
     //validate and preprocess url
     NSString* queryUrl = [APIHelper cleanUrl: queryBuilder];
@@ -119,7 +121,8 @@
     NSMutableDictionary* headers = [[NSMutableDictionary alloc] initWithDictionary: @{
         @"user-agent": @"APIMATIC 2.0",
         @"accept": @"application/json",
-        @"apikey": [Configuration Apikey]
+        @"apikey": [Configuration Apikey],
+        @"apikey": apikey
     }];
 
     //Remove null values from header collection in order to omit from request

@@ -8,8 +8,10 @@ https://github.com/CocoaPods/CocoaPods/blob/master/CHANGELOG.md
 
 How To Configure:
 =================
-The generated code might need to be configured with your API credentials. To do that,
-open the file "Configuration.h" and edit it's contents.
+The generated code reads configuration values from the App-Info.plist file.
+The App-Info.plist dictionary must contain the following configuration entries.
+
+	Apikey		Supply your API Key. 
 
 How to build and use via CocoaPods: 
 =============
