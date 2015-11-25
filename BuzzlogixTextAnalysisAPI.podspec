@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name             = "BuzzlogixTextAnalysisAPI"
   s.version          = "0.0.1"
   s.summary          = <<-SUMMARY
-  <p>Smart Social Media Management Software and Text Analysis API.</p>
+  <p>Buzzlogix's Text Analysis API.</p>
 
 SUMMARY
   s.homepage         = "http://apimatic.io"

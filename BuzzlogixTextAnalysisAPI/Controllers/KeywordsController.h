@@ -2,7 +2,7 @@
 //  KeywordsController.h
 //  BuzzlogixTextAnalysisAPI
 //
-//  This file was automatically generated for Buzzlogix by APIMATIC BETA v2.0 on 11/18/2015
+//  This file was automatically generated for buzzlogix by APIMATIC BETA v2.0 on 11/25/2015
 //
 #import <Foundation/Foundation.h>
 #import "Configuration.h"
@@ -31,11 +31,9 @@ typedef void (^CompletedPostReturnEnglishKeywordsForm)(BOOL success, HttpContext
 
 /**
 * The text should be provided as multipart/form-data with the key 'text'. Files can be uploaded.
-* @param    apikey    Required parameter: Supply your API key.
 * @param    body    Required parameter: Supply text to be classified.
 */
-- (void) createReturnEnglishKeywordsFormAsyncWithApikey:(NSString*) apikey
-                body:(NSString*) body
+- (void) createReturnEnglishKeywordsFormAsyncWithBody:(NSString*) body
                 completionBlock:(CompletedPostReturnEnglishKeywordsForm) onCompleted;
 
 @end
