@@ -2,7 +2,7 @@
 //  Configuration.m
 //  BuzzlogixTextAnalysisAPI
 //
-//  This file was automatically generated for buzzlogix by APIMATIC BETA v2.0 on 11/25/2015
+//  This file was automatically generated for buzzlogix by APIMATIC BETA v2.0 on 12/06/2015
 //
 #import "Configuration.h"
 
@@ -11,13 +11,13 @@
 /** The base Uri for API calls */
 +(NSString*) BaseUri
 {
-    return @"http://text.buzzlogix.com:8000";
+    return @"https://buzzlogix-text-analysis.p.mashape.com";
 }
 
 /** Supply your API Key.  */
-+(NSString*) Apikey
++(NSString*) XMashapeKey
 {
-    return [[NSBundle mainBundle] objectForInfoDictionaryKey:@"Apikey"];
+    return [[NSBundle mainBundle] objectForInfoDictionaryKey:@"XMashapeKey"];
 }
 
 

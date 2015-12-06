@@ -11,7 +11,7 @@ How To Configure:
 The generated code reads configuration values from the App-Info.plist file.
 The App-Info.plist dictionary must contain the following configuration entries.
 
-	Apikey		Supply your API Key. 
+	XMashapeKey		Supply your API Key. 
 
 How to build and use via CocoaPods: 
 =============

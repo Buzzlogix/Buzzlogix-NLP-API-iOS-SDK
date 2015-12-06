@@ -2,7 +2,7 @@
 //  TwittersentimentController.h
 //  BuzzlogixTextAnalysisAPI
 //
-//  This file was automatically generated for buzzlogix by APIMATIC BETA v2.0 on 11/25/2015
+//  This file was automatically generated for buzzlogix by APIMATIC BETA v2.0 on 12/06/2015
 //
 #import <Foundation/Foundation.h>
 #import "Configuration.h"
@@ -15,25 +15,36 @@
 @interface TwittersentimentController : BaseController
 
 /**
-* Completion block definition for asynchronous call to returnEnglishTwitterSentiment */
-typedef void (^CompletedPostReturnEnglishTwitterSentiment)(BOOL success, HttpContext* context, id response, NSError* error);
+* Completion block definition for asynchronous call to Return English Twitter Sentiment (plaintext) */
+typedef void (^CompletedPostReturnEnglishTwitterSentimentPlaintext)(BOOL success, HttpContext* context, id response, NSError* error);
 
 /**
 * The Tweet should be provided as text/plain in the body
 * @param    body    Required parameter: Supply text to be classified.
 */
-- (void) createReturnEnglishTwitterSentimentAsyncWithBody:(NSString*) body
-                completionBlock:(CompletedPostReturnEnglishTwitterSentiment) onCompleted;
+- (void) createReturnEnglishTwitterSentimentPlaintextAsyncWithBody:(NSString*) body
+                completionBlock:(CompletedPostReturnEnglishTwitterSentimentPlaintext) onCompleted;
 
 /**
-* Completion block definition for asynchronous call to returnEnglishTwitterSentimentForm */
-typedef void (^CompletedPostReturnEnglishTwitterSentimentForm)(BOOL success, HttpContext* context, id response, NSError* error);
+* Completion block definition for asynchronous call to Return English Twitter Sentiment (multipart form) */
+typedef void (^CompletedPostReturnEnglishTwitterSentimentMultipartForm)(BOOL success, HttpContext* context, id response, NSError* error);
 
 /**
 * The Tweet should be provided as multipart/form-data with the key 'text'. Files can be uploaded.
-* @param    body    Required parameter: Supply text to be classified.
+* @param    text    Required parameter: Supply text to be classified.
 */
-- (void) createReturnEnglishTwitterSentimentFormAsyncWithBody:(NSString*) body
-                completionBlock:(CompletedPostReturnEnglishTwitterSentimentForm) onCompleted;
+- (void) createReturnEnglishTwitterSentimentMultipartFormAsyncWithText:(NSURL*) text
+                completionBlock:(CompletedPostReturnEnglishTwitterSentimentMultipartForm) onCompleted;
+
+/**
+* Completion block definition for asynchronous call to Return English Twitter Sentiment (encoded form) */
+typedef void (^CompletedPostReturnEnglishTwitterSentimentEncodedForm)(BOOL success, HttpContext* context, id response, NSError* error);
+
+/**
+* Return the sentiment of an English Tweet supplied in an encoded form using key 'text'.
+* @param    text    Required parameter: Supply the Tweet to be classified.
+*/
+- (void) createReturnEnglishTwitterSentimentEncodedFormAsyncWithText:(NSString*) text
+                completionBlock:(CompletedPostReturnEnglishTwitterSentimentEncodedForm) onCompleted;
 
 @end
